@@ -1,0 +1,141 @@
+
+.wrapper{
+    background-image: url("images/dark-metal-texture-2.jpg");
+    width: 100%;
+    height: 97vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  @font-face{
+    font-family:neon;
+    src:url(fonts/NEON\ 400.ttf);
+  }
+
+  /*.neon-wrapper {
+    box-shadow:
+    0 0   0.9vw  0.3vw #FFF13D,   
+    0 0   0.7vw  0.2vw #92FF68, 
+    0 0   1.2vw  0.4vw #e50b0b,
+    inset 0 0  1vw  0.3vw #e50b0b,
+    inset 0 0  1vw  0.2vw #92FF68,
+    inset 0 0  1vw  0.4vw #FFF13D;
+    border-radius: 1rem;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    border-width:1px;
+  }
+  #content {
+    width: 540px;
+    text-align: center;
+    margin-top: -20%;
+    
+  
+  }
+  
+  h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 120px;
+    position: relative;
+    left: 8%;
+    top:50px;
+    
+  }
+  
+  .you {
+    letter-spacing: -5px;
+    color:#92FF68;
+    text-shadow: 0 5px 0 #FFF13D;
+  }
+  
+  .tube {
+    position: relative;
+    
+    background-image: -webkit-linear-gradient(bottom, #e50b0b 12%, #FFF59A 45%, #92FF68 85% );
+  
+    background-image: linear-gradient(bottom, #e50b0b 12%, #FFF59A 45%, #92FF68 85% );
+    color: #d4d425;
+    letter-spacing: -6px;
+    text-shadow: 0 8px 10px black;
+    border-radius: 50% / 12%;
+    box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.67);
+  }
+  
+  .tube::before {
+    content: "Tube";
+    text-align: center;
+    line-height: 112px;
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    right: -5%;
+    left: -5%;
+    background: inherit;
+    border-radius: 5% / 50%;
+  }
+*/
+
+
+
+  .neon-wrapper {
+    box-shadow:
+    0 0   2vw  0.3vw #FFF13D,   
+    0 0   1.3vw  0.3vw #92FF68, 
+    0 0   3vw  0.5vw #e50b0b,
+    inset 0 0  1.2vw  0.4vw #e50b0b,
+    inset 0 0  1.2vw  0.2vw #92FF68,
+    inset 0 0  1.2vw  0.5vw #FFF13D;
+    border-radius: 1rem;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    padding-top:0.2rem;
+    padding-bottom:0.2rem;
+    border-width:10px;
+  }
+ 
+  .neon-text-green{
+    font-family:neon;
+    font-size: 8rem;
+    color: #D6FFC7;
+    text-shadow: 
+    .1vw 0vw .25vw #D6FFC7, .2vw 0vw .25vw #D6FFC7, .4vw 0vw .25vw #D6FFC7,
+
+    .1vw 0vw   0vw #92FF68, .2vw 0vw   0vw #92FF68, .4vw 0vw   0vw #92FF68,
+    .1vw 0vw  .1vw #92FF68, .2vw 0vw  .1vw #92FF68, .4vw 0vw  .1vw #92FF68,
+    .1vw 0vw   2vw #92FF68, .2vw 0vw   2vw #92FF68, .4vw 0vw   2vw #92FF68,
+
+    .1vw 0vw   1vw #5BFF1D, .2vw 0vw   1vw #5BFF1D, .4vw 0vw   2vw #5BFF1D, 
+    .1vw 0vw   5vw #5BFF1D, .2vw 0vw  10vw #5BFF1D, .4vw 0vw  15vw #5BFF1D,
+    .1vw 0vw  10vw #5BFF1D, .2vw 0vw  15vw #5BFF1D, .4vw 0vw  25vw #5BFF1D;
+  }
+  .neon-text-red{
+    font-family:neon;
+    font-size: 8rem;
+    color: #ffd8d8;
+    text-shadow: 
+    .1vw 0vw .25vw #ffd8d8, .2vw 0vw .25vw #ffd8d8, .4vw 0vw .25vw #ffd8d8,
+
+    .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #f25757,
+    .1vw 0vw  .1vw #f25757, .2vw 0vw  .1vw #f25757, .4vw 0vw  .1vw #f25757,
+    .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #f25757, .4vw 0vw   2vw #f25757,
+
+    .1vw 0vw   1vw #e50b0b, .2vw 0vw   1vw #e50b0b, .4vw 0vw   2vw #e50b0b, 
+    .1vw 0vw   5vw #e50b0b, .2vw 0vw  10vw #e50b0b, .4vw 0vw  15vw #e50b0b,
+    .1vw 0vw  10vw #e50b0b, .2vw 0vw  15vw #e50b0b, .4vw 0vw  25vw #e50b0b;
+  }
+  .neon-text-yellow{
+    font-family:neon;
+    font-size: 8rem;
+    color: #FFF59A;
+    text-shadow: 
+    .1vw 0vw .25vw #FFF59A, .2vw 0vw .25vw #FFF59A, .4vw 0vw .25vw #FFF59A,
+
+    .1vw 0vw   0vw #FFEE50, .2vw 0vw   0vw #FFEE50, .4vw 0vw   0vw #FFEE50,
+    .1vw 0vw  .1vw #FFEE50, .2vw 0vw  .1vw #FFEE50, .4vw 0vw  .1vw #FFEE50,
+    .1vw 0vw   2vw #FFEE50, .2vw 0vw   2vw #FFEE50, .4vw 0vw   2vw #FFEE50,
+
+    .1vw 0vw   1vw #FFE500, .2vw 0vw   1vw #FFE500, .4vw 0vw   2vw #FFE500, 
+    .1vw 0vw   5vw #FFE500, .2vw 0vw  10vw #FFE500, .4vw 0vw  15vw #FFE500,
+    .1vw 0vw  10vw #FFE500, .2vw 0vw  15vw #FFE500, .4vw 0vw  25vw #FFE500;
+  
+  }
